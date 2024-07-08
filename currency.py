@@ -5,7 +5,7 @@ import numpy as np
 st.title('JG Cur_Converter')
 
 currency = ['NGN','USD','JPY','CAD','GBP']
-conv = [1,0.00065, 0.10, 0.0008, 0.00051]
+conv = [1.00065, 0.10, 0.0008, 0.00051]
 
 def curr_converter(amt, cur_f,cur_t):
     ind_f = currency.index(cur_f)
